@@ -25,7 +25,7 @@ struct SplashScreenView: View {
                         .scaleEffect(size)
                         .opacity(opacity)
                         .onAppear {
-                            let baseAnimation = Animation.easeInOut(duration: 1.0)
+                            let baseAnimation = Animation.easeInOut(duration: 1.2)
                             let repeated = baseAnimation.repeatForever(autoreverses: true)
 
                             withAnimation(repeated) {
