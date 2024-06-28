@@ -18,14 +18,14 @@ struct SplashScreenView: View {
         } else {
             VStack {
                 VStack {
-                    Image("logo")
+                    Image("Recurso 1")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 250, height: 250)
+                        .frame(width: 260, height: 260)
                         .scaleEffect(size)
                         .opacity(opacity)
                         .onAppear {
-                            let baseAnimation = Animation.easeInOut(duration: 1.2)
+                            let baseAnimation = Animation.easeInOut(duration: 1.0)
                             let repeated = baseAnimation.repeatForever(autoreverses: true)
 
                             withAnimation(repeated) {

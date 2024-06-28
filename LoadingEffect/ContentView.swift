@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  LoadingEffect
+//  SplashScreen
 //
-//  Created by Emmanuelle  Dennemont on 28/06/2024.
+//  Created by Emmanuelle  Dennemont on 01/06/2024.
 //
 
 import SwiftUI
